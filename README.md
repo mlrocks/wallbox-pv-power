@@ -3,7 +3,7 @@
 This Python script uses [pyModbusTCP](https://github.com/sourceperl/pyModbusTCP) to control to the Alfen Eve Single S-line Wallbox.
 (To use modbus with the Eve Single you need the licence for „Load Balancing Active“.)
 
-The SolarEdge Monitoring API is used the get the up-to-date values for PV production and usage.
+The [SolarEdge Monitoring API](https://www.solaredge.com/sites/default/files/se_monitoring_api.pdf) is used the get the up-to-date values for PV production and usage.
 
 The script calculates the power excess and regulates the wallbox to only use the excess to charge the car...
 
